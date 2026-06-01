@@ -1,0 +1,1373 @@
+{
+  "kbbq": {
+    "categories": [
+      {
+        "id": "premium-beef",
+        "name": "Premium Beef",
+        "emoji": "\ud83e\udd69",
+        "items": [
+          {
+            "id": "a5-wagyu",
+            "name": "A5 Wagyu Beef",
+            "koreanName": "\uc640\uaddc A5\ub4f1\uae09",
+            "tier": "top",
+            "portionOz": 2,
+            "portionGrams": 57,
+            "pricing": {
+              "marketPerServing": 18.5,
+              "wholesalePerServing": 5.55,
+              "alaCartePerServing": 38.0
+            },
+            "nutrition": {
+              "calories": 180,
+              "proteinG": 10,
+              "fatG": 16
+            },
+            "notes": "A5 Wagyu retail $120-180/lb from Wagyu Handbook (Feb 2026) and LatestCost.com (2026). 2oz AYCE portion standard.",
+            "image": "raw,wagyu,beef,marbled"
+          },
+          {
+            "id": "galbi",
+            "name": "LA Galbi (Short Rib)",
+            "koreanName": "LA \uac08\ube44",
+            "tier": "high",
+            "portionOz": 4,
+            "portionGrams": 113,
+            "pricing": {
+              "marketPerServing": 3.5,
+              "wholesalePerServing": 1.05,
+              "alaCartePerServing": 16.0
+            },
+            "nutrition": {
+              "calories": 310,
+              "proteinG": 22,
+              "fatG": 24
+            },
+            "notes": "Bone-in short rib $8.92/lb USDA AMS May 2026 benchmark. 4oz typical serving.",
+            "image": "raw,beef,short-rib,uncooked"
+          },
+          {
+            "id": "ribeye",
+            "name": "Prime Ribeye Slices",
+            "koreanName": "\ud504\ub77c\uc784 \ub9bd\uc544\uc774",
+            "tier": "high",
+            "portionOz": 3,
+            "portionGrams": 85,
+            "pricing": {
+              "marketPerServing": 4.25,
+              "wholesalePerServing": 1.28,
+              "alaCartePerServing": 18.0
+            },
+            "nutrition": {
+              "calories": 260,
+              "proteinG": 20,
+              "fatG": 19
+            },
+            "notes": "Bone-in ribeye averaged $11.34/lb USDA AMS May 2026. Prime adds ~20% premium.",
+            "image": "raw,ribeye,steak,fresh"
+          },
+          {
+            "id": "chadolbaegi",
+            "name": "Chadolbaegi (Brisket)",
+            "koreanName": "\ucc28\ub3cc\ubc15\uc774",
+            "tier": "mid",
+            "portionOz": 3,
+            "portionGrams": 85,
+            "pricing": {
+              "marketPerServing": 1.85,
+              "wholesalePerServing": 0.56,
+              "alaCartePerServing": 10.0
+            },
+            "nutrition": {
+              "calories": 220,
+              "proteinG": 17,
+              "fatG": 17
+            },
+            "notes": "Brisket $4-5/lb retail. Thinly shaved AYCE cut.",
+            "image": "raw,beef,brisket,sliced"
+          },
+          {
+            "id": "bulgogi",
+            "name": "Bulgogi (Marinated Beef)",
+            "koreanName": "\ubd88\uace0\uae30",
+            "tier": "mid",
+            "portionOz": 4,
+            "portionGrams": 113,
+            "pricing": {
+              "marketPerServing": 2.2,
+              "wholesalePerServing": 0.66,
+              "alaCartePerServing": 12.0
+            },
+            "nutrition": {
+              "calories": 240,
+              "proteinG": 20,
+              "fatG": 12
+            },
+            "notes": "Sirloin/round base $5-7/lb. Marinade adds ~$0.30 value.",
+            "image": "raw,beef,sirloin,marinade"
+          },
+          {
+            "id": "tongue",
+            "name": "Beef Tongue (Gyutan)",
+            "koreanName": "\uc18c\ud600 / \uaddc\ud0c4",
+            "tier": "high",
+            "portionOz": 3,
+            "portionGrams": 85,
+            "pricing": {
+              "marketPerServing": 3.9,
+              "wholesalePerServing": 1.17,
+              "alaCartePerServing": 15.0
+            },
+            "nutrition": {
+              "calories": 245,
+              "proteinG": 18,
+              "fatG": 19
+            },
+            "notes": "Beef tongue $8-12/lb specialty cut. Popular at premium AYCE spots.",
+            "image": "raw,beef,tongue,sliced"
+          },
+          {
+            "id": "gopchang",
+            "name": "Gopchang (Small Intestine)",
+            "koreanName": "\uacf1\ucc3d",
+            "tier": "high",
+            "portionOz": 4,
+            "portionGrams": 113,
+            "pricing": {
+              "marketPerServing": 4.5,
+              "wholesalePerServing": 1.35,
+              "alaCartePerServing": 14.0
+            },
+            "nutrition": {
+              "calories": 190,
+              "proteinG": 16,
+              "fatG": 13
+            },
+            "notes": "Beef small intestine $8-10/lb specialty offal. High demand in Korean BBQ.",
+            "image": "raw,beef,offal,intestine"
+          }
+        ]
+      },
+      {
+        "id": "pork",
+        "name": "Pork",
+        "emoji": "\ud83d\udc37",
+        "items": [
+          {
+            "id": "samgyeopsal",
+            "name": "Samgyeopsal (Pork Belly)",
+            "koreanName": "\uc0bc\uacb9\uc0b4",
+            "tier": "mid",
+            "portionOz": 4,
+            "portionGrams": 113,
+            "pricing": {
+              "marketPerServing": 1.75,
+              "wholesalePerServing": 0.53,
+              "alaCartePerServing": 9.0
+            },
+            "nutrition": {
+              "calories": 380,
+              "proteinG": 18,
+              "fatG": 33
+            },
+            "notes": "Pork belly $3.50-4.50/lb Costco/H-Mart. Classic KBBQ staple.",
+            "image": "raw,pork,belly,fresh"
+          },
+          {
+            "id": "spicy-pork",
+            "name": "Spicy Marinated Pork",
+            "koreanName": "\uc81c\uc721\ubcf6\uc74c",
+            "tier": "mid",
+            "portionOz": 4,
+            "portionGrams": 113,
+            "pricing": {
+              "marketPerServing": 1.6,
+              "wholesalePerServing": 0.48,
+              "alaCartePerServing": 8.0
+            },
+            "nutrition": {
+              "calories": 290,
+              "proteinG": 22,
+              "fatG": 18
+            },
+            "notes": "Pork shoulder/loin base. Gochujang marinade standard.",
+            "image": "raw,pork,shoulder,red"
+          },
+          {
+            "id": "pork-jowl",
+            "name": "Pork Jowl (Hangjeongsal)",
+            "koreanName": "\ud56d\uc815\uc0b4",
+            "tier": "high",
+            "portionOz": 3,
+            "portionGrams": 85,
+            "pricing": {
+              "marketPerServing": 2.8,
+              "wholesalePerServing": 0.84,
+              "alaCartePerServing": 11.0
+            },
+            "nutrition": {
+              "calories": 310,
+              "proteinG": 17,
+              "fatG": 27
+            },
+            "notes": "Pork jowl $5-7/lb specialty cut. Prized for marbling and texture.",
+            "image": "raw,pork,jowl,uncooked"
+          },
+          {
+            "id": "pork-ribs",
+            "name": "Marinated Pork Ribs",
+            "koreanName": "\ub3fc\uc9c0\uac08\ube44",
+            "tier": "mid",
+            "portionOz": 5,
+            "portionGrams": 142,
+            "pricing": {
+              "marketPerServing": 2.0,
+              "wholesalePerServing": 0.6,
+              "alaCartePerServing": 10.0
+            },
+            "nutrition": {
+              "calories": 340,
+              "proteinG": 24,
+              "fatG": 26
+            },
+            "notes": "Pork spare ribs $3-4/lb. Ganjang or gochujang marinade.",
+            "image": "raw,pork,ribs,fresh"
+          }
+        ]
+      },
+      {
+        "id": "chicken",
+        "name": "Chicken",
+        "emoji": "\ud83d\udc14",
+        "items": [
+          {
+            "id": "chicken-thigh",
+            "name": "Marinated Chicken Thigh",
+            "koreanName": "\ub2ed\ud5c8\ubc85\uc9c0",
+            "tier": "mid",
+            "portionOz": 4,
+            "portionGrams": 113,
+            "pricing": {
+              "marketPerServing": 0.9,
+              "wholesalePerServing": 0.27,
+              "alaCartePerServing": 7.0
+            },
+            "nutrition": {
+              "calories": 210,
+              "proteinG": 24,
+              "fatG": 11
+            },
+            "notes": "Chicken thigh $2-2.50/lb boneless. USDA FoodData Central nutrition.",
+            "image": "raw,chicken,thigh,boneless"
+          },
+          {
+            "id": "spicy-chicken",
+            "name": "Spicy BBQ Chicken",
+            "koreanName": "\uc591\ub150\uce58\ud0a8",
+            "tier": "mid",
+            "portionOz": 4,
+            "portionGrams": 113,
+            "pricing": {
+              "marketPerServing": 0.95,
+              "wholesalePerServing": 0.29,
+              "alaCartePerServing": 7.5
+            },
+            "nutrition": {
+              "calories": 220,
+              "proteinG": 23,
+              "fatG": 9
+            },
+            "notes": "Chicken breast/thigh with yangnyeom sauce. Slightly leaner profile.",
+            "image": "raw,chicken,breast,marinade"
+          }
+        ]
+      },
+      {
+        "id": "seafood",
+        "name": "Seafood",
+        "emoji": "\ud83e\udd90",
+        "items": [
+          {
+            "id": "shrimp-kbbq",
+            "name": "Head-On Tiger Shrimp",
+            "koreanName": "\ub300\ud558\uad6c\uc774",
+            "tier": "high",
+            "portionOz": 4,
+            "portionGrams": 113,
+            "pricing": {
+              "marketPerServing": 4.0,
+              "wholesalePerServing": 1.2,
+              "alaCartePerServing": 14.0
+            },
+            "nutrition": {
+              "calories": 100,
+              "proteinG": 21,
+              "fatG": 2
+            },
+            "notes": "Large head-on shrimp $12-16/lb specialty seafood market.",
+            "image": "raw,tiger,shrimp,fresh"
+          },
+          {
+            "id": "scallop-kbbq",
+            "name": "Live Scallop",
+            "koreanName": "\uac00\ub9ac\ube44\uad6c\uc774",
+            "tier": "top",
+            "portionOz": 3,
+            "portionGrams": 85,
+            "pricing": {
+              "marketPerServing": 5.5,
+              "wholesalePerServing": 1.65,
+              "alaCartePerServing": 18.0
+            },
+            "nutrition": {
+              "calories": 75,
+              "proteinG": 14,
+              "fatG": 1
+            },
+            "notes": "Live scallops $18-22/lb Pike Place Market City Fish rates 2026.",
+            "image": "raw,scallop,shell,fresh"
+          },
+          {
+            "id": "squid-kbbq",
+            "name": "Squid (Ojingeo)",
+            "koreanName": "\uc624\uc9d5\uc5b4\uad6c\uc774",
+            "tier": "mid",
+            "portionOz": 4,
+            "portionGrams": 113,
+            "pricing": {
+              "marketPerServing": 2.0,
+              "wholesalePerServing": 0.6,
+              "alaCartePerServing": 9.0
+            },
+            "nutrition": {
+              "calories": 95,
+              "proteinG": 18,
+              "fatG": 1
+            },
+            "notes": "Whole squid $4-6/lb. High protein, low calorie seafood option.",
+            "image": "raw,squid,whole,fresh"
+          }
+        ]
+      },
+      {
+        "id": "banchan",
+        "name": "Banchan & Sides",
+        "emoji": "\ud83e\udd57",
+        "items": [
+          {
+            "id": "kimchi",
+            "name": "Kimchi",
+            "koreanName": "\uae40\uce58",
+            "tier": "mid",
+            "portionOz": 3,
+            "portionGrams": 85,
+            "pricing": {
+              "marketPerServing": 0.8,
+              "wholesalePerServing": 0.24,
+              "alaCartePerServing": 3.0
+            },
+            "nutrition": {
+              "calories": 25,
+              "proteinG": 2,
+              "fatG": 0
+            },
+            "notes": "Napa cabbage kimchi. H-Mart pricing ~$5/lb packaged.",
+            "image": "kimchi,fermented,cabbage,jar"
+          },
+          {
+            "id": "corn-cheese",
+            "name": "Corn Cheese",
+            "koreanName": "\ucf58\uce58\uc988",
+            "tier": "mid",
+            "portionOz": 4,
+            "portionGrams": 113,
+            "pricing": {
+              "marketPerServing": 1.2,
+              "wholesalePerServing": 0.36,
+              "alaCartePerServing": 6.0
+            },
+            "nutrition": {
+              "calories": 180,
+              "proteinG": 6,
+              "fatG": 10
+            },
+            "notes": "Sweet corn, mozzarella, mayo blend. Popular KBBQ side.",
+            "image": "corn,cheese,bowl,fresh"
+          },
+          {
+            "id": "japchae",
+            "name": "Japchae (Glass Noodles)",
+            "koreanName": "\uc7a1\ucc44",
+            "tier": "mid",
+            "portionOz": 4,
+            "portionGrams": 113,
+            "pricing": {
+              "marketPerServing": 1.5,
+              "wholesalePerServing": 0.45,
+              "alaCartePerServing": 7.0
+            },
+            "nutrition": {
+              "calories": 165,
+              "proteinG": 4,
+              "fatG": 4
+            },
+            "notes": "Sweet potato glass noodles stir-fried with vegetables and beef.",
+            "image": "glass,noodles,dangmyeon,raw"
+          },
+          {
+            "id": "steamed-egg",
+            "name": "Steamed Egg (Gyeran Jjim)",
+            "koreanName": "\uacc4\ub780\ucc1c",
+            "tier": "mid",
+            "portionOz": 5,
+            "portionGrams": 142,
+            "pricing": {
+              "marketPerServing": 0.6,
+              "wholesalePerServing": 0.18,
+              "alaCartePerServing": 4.0
+            },
+            "nutrition": {
+              "calories": 120,
+              "proteinG": 10,
+              "fatG": 8
+            },
+            "notes": "Fluffy steamed egg custard. 3 eggs typical per serving.",
+            "image": "eggs,fresh,raw,cracked"
+          },
+          {
+            "id": "tteokbokki",
+            "name": "Tteokbokki (Rice Cakes)",
+            "koreanName": "\ub5a1\ubcf6\uc774",
+            "tier": "mid",
+            "portionOz": 4,
+            "portionGrams": 113,
+            "pricing": {
+              "marketPerServing": 1.1,
+              "wholesalePerServing": 0.33,
+              "alaCartePerServing": 6.0
+            },
+            "nutrition": {
+              "calories": 210,
+              "proteinG": 4,
+              "fatG": 3
+            },
+            "notes": "Rice cake cylinders in gochujang sauce. H-Mart frozen base.",
+            "image": "rice,cake,tteok,raw"
+          }
+        ]
+      },
+      {
+        "id": "appetizers-kbbq",
+        "name": "Appetizers",
+        "emoji": "\ud83e\udd5f",
+        "items": [
+          {
+            "id": "mandu",
+            "name": "Gyoza / Mandu (Dumplings)",
+            "koreanName": "\ub9cc\ub450",
+            "tier": "mid",
+            "portionOz": 4,
+            "portionGrams": 113,
+            "pricing": {
+              "marketPerServing": 1.4,
+              "wholesalePerServing": 0.42,
+              "alaCartePerServing": 7.0
+            },
+            "nutrition": {
+              "calories": 200,
+              "proteinG": 9,
+              "fatG": 8
+            },
+            "notes": "Pork and vegetable dumplings. 4-5 pieces per serving.",
+            "image": "dumpling,raw,uncooked,fresh"
+          },
+          {
+            "id": "sundubu",
+            "name": "Sundubu Jjigae (Soft Tofu Stew)",
+            "koreanName": "\uc21c\ub450\ubd80\ucc0c\uac1c",
+            "tier": "mid",
+            "portionOz": 8,
+            "portionGrams": 227,
+            "pricing": {
+              "marketPerServing": 1.8,
+              "wholesalePerServing": 0.54,
+              "alaCartePerServing": 9.0
+            },
+            "nutrition": {
+              "calories": 130,
+              "proteinG": 10,
+              "fatG": 6
+            },
+            "notes": "Spicy soft tofu stew with seafood or pork. Restaurant staple add-on.",
+            "image": "soft,tofu,silken,fresh"
+          }
+        ]
+      }
+    ]
+  },
+  "hotpot": {
+    "categories": [
+      {
+        "id": "premium-beef-hp",
+        "name": "Premium Beef",
+        "emoji": "\ud83e\udd69",
+        "items": [
+          {
+            "id": "a5-wagyu-hp",
+            "name": "A5 Wagyu Slices",
+            "koreanName": "\uc640\uaddc A5 \uc0e4\ubd80\uc0e4\ubd80",
+            "tier": "top",
+            "portionOz": 2,
+            "portionGrams": 57,
+            "pricing": {
+              "marketPerServing": 18.5,
+              "wholesalePerServing": 5.55,
+              "alaCartePerServing": 36.0
+            },
+            "nutrition": {
+              "calories": 180,
+              "proteinG": 10,
+              "fatG": 16
+            },
+            "notes": "A5 Wagyu paper-thin sliced for shabu. Same sourcing as KBBQ.",
+            "image": "raw,wagyu,beef,thin,sliced"
+          },
+          {
+            "id": "prime-ribeye-hp",
+            "name": "Prime Ribeye Roll",
+            "koreanName": "\ud504\ub77c\uc784 \ub9bd\uc544\uc774 \ub864",
+            "tier": "high",
+            "portionOz": 3,
+            "portionGrams": 85,
+            "pricing": {
+              "marketPerServing": 4.25,
+              "wholesalePerServing": 1.28,
+              "alaCartePerServing": 16.0
+            },
+            "nutrition": {
+              "calories": 255,
+              "proteinG": 20,
+              "fatG": 19
+            },
+            "notes": "Thinly rolled prime ribeye for hotpot dipping. USDA AMS benchmark.",
+            "image": "raw,ribeye,roll,sliced"
+          },
+          {
+            "id": "brisket-hp",
+            "name": "Brisket Slices",
+            "koreanName": "\uc591\uc9c0 \uc0e4\ubd80",
+            "tier": "mid",
+            "portionOz": 4,
+            "portionGrams": 113,
+            "pricing": {
+              "marketPerServing": 2.0,
+              "wholesalePerServing": 0.6,
+              "alaCartePerServing": 10.0
+            },
+            "nutrition": {
+              "calories": 200,
+              "proteinG": 22,
+              "fatG": 12
+            },
+            "notes": "Beef brisket $5-7/lb wholesale. Popular hotpot protein.",
+            "image": "raw,brisket,beef,thin"
+          }
+        ]
+      },
+      {
+        "id": "seafood-hp",
+        "name": "Seafood",
+        "emoji": "\ud83e\udd9e",
+        "items": [
+          {
+            "id": "live-clams",
+            "name": "Live Clams",
+            "koreanName": "\uc0dd\ud569",
+            "tier": "top",
+            "portionOz": 6,
+            "portionGrams": 170,
+            "pricing": {
+              "marketPerServing": 5.0,
+              "wholesalePerServing": 1.5,
+              "alaCartePerServing": 16.0
+            },
+            "nutrition": {
+              "calories": 85,
+              "proteinG": 15,
+              "fatG": 1
+            },
+            "notes": "Live manila or littleneck clams $10-14/lb seafood market.",
+            "image": "fresh,clams,live,shell"
+          },
+          {
+            "id": "head-on-shrimp-hp",
+            "name": "Head-On Shrimp",
+            "koreanName": "\ud1b5\uc0c8\uc6b0",
+            "tier": "high",
+            "portionOz": 4,
+            "portionGrams": 113,
+            "pricing": {
+              "marketPerServing": 4.0,
+              "wholesalePerServing": 1.2,
+              "alaCartePerServing": 13.0
+            },
+            "nutrition": {
+              "calories": 100,
+              "proteinG": 21,
+              "fatG": 2
+            },
+            "notes": "Large head-on shrimp $12-16/lb specialty seafood.",
+            "image": "raw,shrimp,whole,head"
+          },
+          {
+            "id": "fresh-oysters",
+            "name": "Fresh Oysters",
+            "koreanName": "\uc0dd\uad74",
+            "tier": "top",
+            "portionOz": 3,
+            "portionGrams": 85,
+            "pricing": {
+              "marketPerServing": 4.5,
+              "wholesalePerServing": 1.35,
+              "alaCartePerServing": 14.0
+            },
+            "nutrition": {
+              "calories": 50,
+              "proteinG": 6,
+              "fatG": 1
+            },
+            "notes": "Fresh oysters $1.50-3 each retail. 3 pieces per serving typical.",
+            "image": "fresh,oyster,shell,raw"
+          },
+          {
+            "id": "fish-tofu",
+            "name": "Fish Tofu & Fish Balls",
+            "koreanName": "\uc5b4\ubb35 / \uc0dd\uc120\ubcfc",
+            "tier": "mid",
+            "portionOz": 4,
+            "portionGrams": 113,
+            "pricing": {
+              "marketPerServing": 1.2,
+              "wholesalePerServing": 0.36,
+              "alaCartePerServing": 5.0
+            },
+            "nutrition": {
+              "calories": 120,
+              "proteinG": 10,
+              "fatG": 4
+            },
+            "notes": "Processed fish cake products $3-5/lb. Common hotpot fillers.",
+            "image": "fishcake,tofu,raw,fresh"
+          }
+        ]
+      },
+      {
+        "id": "vegetables-hp",
+        "name": "Vegetables & Tofu",
+        "emoji": "\ud83e\udd6c",
+        "items": [
+          {
+            "id": "napa-cabbage",
+            "name": "Napa Cabbage",
+            "koreanName": "\ubc30\ucd94",
+            "tier": "mid",
+            "portionOz": 4,
+            "portionGrams": 113,
+            "pricing": {
+              "marketPerServing": 0.4,
+              "wholesalePerServing": 0.12,
+              "alaCartePerServing": 2.0
+            },
+            "nutrition": {
+              "calories": 14,
+              "proteinG": 1,
+              "fatG": 0
+            },
+            "notes": "Napa cabbage $0.60-1.00/lb retail.",
+            "image": "napa,cabbage,fresh,whole"
+          },
+          {
+            "id": "enoki-mushroom",
+            "name": "Enoki Mushrooms",
+            "koreanName": "\ud33d\uc774\ubc84\uc12f",
+            "tier": "mid",
+            "portionOz": 3,
+            "portionGrams": 85,
+            "pricing": {
+              "marketPerServing": 0.7,
+              "wholesalePerServing": 0.21,
+              "alaCartePerServing": 3.0
+            },
+            "nutrition": {
+              "calories": 25,
+              "proteinG": 2,
+              "fatG": 0
+            },
+            "notes": "Enoki mushroom bundles $2-3 each. H-Mart standard.",
+            "image": "enoki,mushroom,fresh,white"
+          },
+          {
+            "id": "king-oyster-mushroom",
+            "name": "King Oyster Mushrooms",
+            "koreanName": "\uc0c8\uc1a1\uc774\ubc84\uc12f",
+            "tier": "mid",
+            "portionOz": 3,
+            "portionGrams": 85,
+            "pricing": {
+              "marketPerServing": 1.1,
+              "wholesalePerServing": 0.33,
+              "alaCartePerServing": 4.0
+            },
+            "nutrition": {
+              "calories": 30,
+              "proteinG": 3,
+              "fatG": 0
+            },
+            "notes": "King oyster $4-6/lb specialty mushroom. Meaty texture.",
+            "image": "king,oyster,mushroom,fresh"
+          },
+          {
+            "id": "firm-tofu",
+            "name": "Firm Tofu",
+            "koreanName": "\ub450\ubd80",
+            "tier": "mid",
+            "portionOz": 4,
+            "portionGrams": 113,
+            "pricing": {
+              "marketPerServing": 0.6,
+              "wholesalePerServing": 0.18,
+              "alaCartePerServing": 2.5
+            },
+            "nutrition": {
+              "calories": 70,
+              "proteinG": 8,
+              "fatG": 4
+            },
+            "notes": "Firm tofu $2-3/lb. USDA FoodData Central nutrition.",
+            "image": "tofu,block,fresh,white"
+          }
+        ]
+      },
+      {
+        "id": "noodles-hp",
+        "name": "Noodles & Starch",
+        "emoji": "\ud83c\udf5c",
+        "items": [
+          {
+            "id": "glass-noodles",
+            "name": "Glass Noodles (Dangmyeon)",
+            "koreanName": "\ub2f9\uba74",
+            "tier": "mid",
+            "portionOz": 3,
+            "portionGrams": 85,
+            "pricing": {
+              "marketPerServing": 0.5,
+              "wholesalePerServing": 0.15,
+              "alaCartePerServing": 3.0
+            },
+            "nutrition": {
+              "calories": 195,
+              "proteinG": 0,
+              "fatG": 0
+            },
+            "notes": "Sweet potato starch noodles. Dry weight, cooks up 3x.",
+            "image": "glass,noodles,dry,transparent"
+          },
+          {
+            "id": "udon-hp",
+            "name": "Udon Noodles",
+            "koreanName": "\uc6b0\ub3d9\uba74",
+            "tier": "mid",
+            "portionOz": 5,
+            "portionGrams": 142,
+            "pricing": {
+              "marketPerServing": 0.6,
+              "wholesalePerServing": 0.18,
+              "alaCartePerServing": 3.5
+            },
+            "nutrition": {
+              "calories": 210,
+              "proteinG": 7,
+              "fatG": 1
+            },
+            "notes": "Fresh udon $3-4/pack. Popular hotpot finish.",
+            "image": "udon,noodle,fresh,raw"
+          },
+          {
+            "id": "rice-cakes-hp",
+            "name": "Rice Cakes (Tteok)",
+            "koreanName": "\ub5a1",
+            "tier": "mid",
+            "portionOz": 4,
+            "portionGrams": 113,
+            "pricing": {
+              "marketPerServing": 0.8,
+              "wholesalePerServing": 0.24,
+              "alaCartePerServing": 3.5
+            },
+            "nutrition": {
+              "calories": 190,
+              "proteinG": 3,
+              "fatG": 0
+            },
+            "notes": "Cylinder rice cakes $3-5/lb H-Mart. Chewy hotpot addition.",
+            "image": "rice,cake,cylinder,white"
+          }
+        ]
+      },
+      {
+        "id": "appetizers-hp",
+        "name": "Appetizers",
+        "emoji": "\ud83e\udd5f",
+        "items": [
+          {
+            "id": "dumplings-hp",
+            "name": "Dumplings",
+            "koreanName": "\ub9cc\ub450",
+            "tier": "mid",
+            "portionOz": 4,
+            "portionGrams": 113,
+            "pricing": {
+              "marketPerServing": 1.4,
+              "wholesalePerServing": 0.42,
+              "alaCartePerServing": 7.0
+            },
+            "nutrition": {
+              "calories": 200,
+              "proteinG": 9,
+              "fatG": 8
+            },
+            "notes": "Pork and vegetable dumplings. 4-5 pieces per serving.",
+            "image": "raw,dumpling,fresh,uncooked"
+          },
+          {
+            "id": "spring-rolls-hp",
+            "name": "Spring Rolls",
+            "koreanName": "\ucd98\uad8c",
+            "tier": "mid",
+            "portionOz": 3,
+            "portionGrams": 85,
+            "pricing": {
+              "marketPerServing": 1.0,
+              "wholesalePerServing": 0.3,
+              "alaCartePerServing": 5.0
+            },
+            "nutrition": {
+              "calories": 160,
+              "proteinG": 5,
+              "fatG": 7
+            },
+            "notes": "Fried vegetable spring rolls. 3 pieces per serving typical.",
+            "image": "spring,roll,uncooked,fresh"
+          }
+        ]
+      }
+    ]
+  },
+  "sushi": {
+    "categories": [
+      {
+        "id": "premium-nigiri",
+        "name": "Premium Nigiri",
+        "emoji": "\ud83c\udf63",
+        "items": [
+          {
+            "id": "otoro",
+            "name": "Otoro (Fatty Bluefin Tuna)",
+            "japaneseName": "\u5927\u30c8\u30ed",
+            "tier": "top",
+            "portionOz": 1,
+            "portionGrams": 28,
+            "pricing": {
+              "marketPerServing": 8.5,
+              "wholesalePerServing": 2.55,
+              "alaCartePerServing": 12.0
+            },
+            "nutrition": {
+              "calories": 65,
+              "proteinG": 5,
+              "fatG": 5
+            },
+            "notes": "Bluefin toro $40-80/lb wholesale. Nigiri portion ~1oz. Surveyed NYC sushi bars 2025-2026.",
+            "image": "raw,tuna,otoro,bluefin,slice"
+          },
+          {
+            "id": "uni",
+            "name": "Uni (Sea Urchin)",
+            "japaneseName": "\u96f2\u4e39",
+            "tier": "top",
+            "portionOz": 0.75,
+            "portionGrams": 21,
+            "pricing": {
+              "marketPerServing": 6.0,
+              "wholesalePerServing": 1.8,
+              "alaCartePerServing": 11.0
+            },
+            "nutrition": {
+              "calories": 30,
+              "proteinG": 3,
+              "fatG": 1
+            },
+            "notes": "Sea urchin retail $16.44-48.86/lb Selinawamucii.com April 2026. ~0.75oz per nigiri.",
+            "image": "fresh,uni,sea-urchin,orange"
+          },
+          {
+            "id": "ikura",
+            "name": "Ikura (Salmon Roe)",
+            "japaneseName": "\u30a4\u30af\u30e9",
+            "tier": "top",
+            "portionOz": 1,
+            "portionGrams": 28,
+            "pricing": {
+              "marketPerServing": 4.5,
+              "wholesalePerServing": 1.35,
+              "alaCartePerServing": 9.0
+            },
+            "nutrition": {
+              "calories": 40,
+              "proteinG": 4,
+              "fatG": 2
+            },
+            "notes": "Salmon roe $25-40/lb specialty seafood.",
+            "image": "fresh,salmon,roe,ikura,orange"
+          },
+          {
+            "id": "wagyu-nigiri",
+            "name": "Wagyu Beef Nigiri",
+            "japaneseName": "\u548c\u725b\u63e1\u308a",
+            "tier": "top",
+            "portionOz": 1,
+            "portionGrams": 28,
+            "pricing": {
+              "marketPerServing": 9.25,
+              "wholesalePerServing": 2.78,
+              "alaCartePerServing": 16.0
+            },
+            "nutrition": {
+              "calories": 90,
+              "proteinG": 5,
+              "fatG": 8
+            },
+            "notes": "A5 wagyu on rice. Premium AYCE offering. ~1oz seared wagyu.",
+            "image": "raw,wagyu,beef,slice,seared"
+          },
+          {
+            "id": "live-scallop-sushi",
+            "name": "Live Scallop Nigiri",
+            "japaneseName": "\u5e06\u7acb\u8c9d",
+            "tier": "top",
+            "portionOz": 1,
+            "portionGrams": 28,
+            "pricing": {
+              "marketPerServing": 3.5,
+              "wholesalePerServing": 1.05,
+              "alaCartePerServing": 7.0
+            },
+            "nutrition": {
+              "calories": 25,
+              "proteinG": 5,
+              "fatG": 0
+            },
+            "notes": "Live diver scallop. Pike Place City Fish $18-22/lb.",
+            "image": "raw,scallop,fresh,white"
+          }
+        ]
+      },
+      {
+        "id": "standard-nigiri",
+        "name": "Standard Nigiri",
+        "emoji": "\ud83c\udf71",
+        "items": [
+          {
+            "id": "salmon-nigiri",
+            "name": "Salmon Nigiri",
+            "japaneseName": "\u9bad\u63e1\u308a",
+            "tier": "mid",
+            "portionOz": 1,
+            "portionGrams": 28,
+            "pricing": {
+              "marketPerServing": 1.1,
+              "wholesalePerServing": 0.33,
+              "alaCartePerServing": 4.5
+            },
+            "nutrition": {
+              "calories": 40,
+              "proteinG": 6,
+              "fatG": 2
+            },
+            "notes": "Atlantic salmon 142 cal/19.8g protein per 100g USDA FoodData Central. ~1oz nigiri.",
+            "image": "raw,salmon,fillet,pink,slice"
+          },
+          {
+            "id": "tuna-nigiri",
+            "name": "Tuna Nigiri (Maguro)",
+            "japaneseName": "\u9baa\u63e1\u308a",
+            "tier": "mid",
+            "portionOz": 1,
+            "portionGrams": 28,
+            "pricing": {
+              "marketPerServing": 1.2,
+              "wholesalePerServing": 0.36,
+              "alaCartePerServing": 5.0
+            },
+            "nutrition": {
+              "calories": 30,
+              "proteinG": 6,
+              "fatG": 0
+            },
+            "notes": "Yellowfin tuna $12-18/lb retail. Standard AYCE sushi protein.",
+            "image": "raw,tuna,fillet,red,slice"
+          },
+          {
+            "id": "yellowtail-nigiri",
+            "name": "Yellowtail Nigiri (Hamachi)",
+            "japaneseName": "\u30cf\u30de\u30c1\u63e1\u308a",
+            "tier": "high",
+            "portionOz": 1,
+            "portionGrams": 28,
+            "pricing": {
+              "marketPerServing": 2.0,
+              "wholesalePerServing": 0.6,
+              "alaCartePerServing": 6.0
+            },
+            "nutrition": {
+              "calories": 45,
+              "proteinG": 6,
+              "fatG": 2
+            },
+            "notes": "Japanese yellowtail $18-25/lb premium import.",
+            "image": "raw,hamachi,yellowtail,fillet"
+          },
+          {
+            "id": "eel-nigiri",
+            "name": "Eel Nigiri (Unagi)",
+            "japaneseName": "\u9c3b\u63e1\u308a",
+            "tier": "high",
+            "portionOz": 1,
+            "portionGrams": 28,
+            "pricing": {
+              "marketPerServing": 2.5,
+              "wholesalePerServing": 0.75,
+              "alaCartePerServing": 6.5
+            },
+            "nutrition": {
+              "calories": 55,
+              "proteinG": 4,
+              "fatG": 3
+            },
+            "notes": "Unagi eel $20-28/lb pre-glazed. Japanese import or farmed.",
+            "image": "fresh,eel,unagi,raw,fish"
+          },
+          {
+            "id": "ebi-nigiri",
+            "name": "Shrimp Nigiri (Ebi)",
+            "japaneseName": "\u6d77\u8001\u63e1\u308a",
+            "tier": "mid",
+            "portionOz": 1,
+            "portionGrams": 28,
+            "pricing": {
+              "marketPerServing": 0.9,
+              "wholesalePerServing": 0.27,
+              "alaCartePerServing": 3.5
+            },
+            "nutrition": {
+              "calories": 25,
+              "proteinG": 5,
+              "fatG": 0
+            },
+            "notes": "Cooked butterfly shrimp $8-12/lb. Classic AYCE sushi protein.",
+            "image": "fresh,shrimp,ebi,raw,pink"
+          }
+        ]
+      },
+      {
+        "id": "sashimi",
+        "name": "Sashimi",
+        "emoji": "\ud83d\udc1f",
+        "items": [
+          {
+            "id": "salmon-sashimi",
+            "name": "Salmon Sashimi (3pc)",
+            "japaneseName": "\u9bad\u523a\u8eab",
+            "tier": "mid",
+            "portionOz": 3,
+            "portionGrams": 85,
+            "pricing": {
+              "marketPerServing": 3.3,
+              "wholesalePerServing": 0.99,
+              "alaCartePerServing": 10.0
+            },
+            "nutrition": {
+              "calories": 121,
+              "proteinG": 17,
+              "fatG": 6
+            },
+            "notes": "3 x 1oz slices Atlantic salmon. USDA FoodData Central per 100g.",
+            "image": "raw,salmon,sashimi,sliced,pink"
+          },
+          {
+            "id": "tuna-sashimi",
+            "name": "Tuna Sashimi (3pc)",
+            "japaneseName": "\u9baa\u523a\u8eab",
+            "tier": "mid",
+            "portionOz": 3,
+            "portionGrams": 85,
+            "pricing": {
+              "marketPerServing": 3.6,
+              "wholesalePerServing": 1.08,
+              "alaCartePerServing": 12.0
+            },
+            "nutrition": {
+              "calories": 90,
+              "proteinG": 19,
+              "fatG": 1
+            },
+            "notes": "3 x 1oz slices yellowfin tuna. Lean, high protein.",
+            "image": "raw,tuna,sashimi,sliced,red"
+          },
+          {
+            "id": "yellowtail-sashimi",
+            "name": "Yellowtail Sashimi (3pc)",
+            "japaneseName": "\u30cf\u30de\u30c1\u523a\u8eab",
+            "tier": "high",
+            "portionOz": 3,
+            "portionGrams": 85,
+            "pricing": {
+              "marketPerServing": 6.0,
+              "wholesalePerServing": 1.8,
+              "alaCartePerServing": 15.0
+            },
+            "nutrition": {
+              "calories": 135,
+              "proteinG": 18,
+              "fatG": 7
+            },
+            "notes": "3 x 1oz slices hamachi. Premium import pricing.",
+            "image": "raw,yellowtail,sashimi,sliced"
+          }
+        ]
+      },
+      {
+        "id": "rolls",
+        "name": "Rolls",
+        "emoji": "\ud83c\udf00",
+        "items": [
+          {
+            "id": "dragon-roll",
+            "name": "Dragon Roll",
+            "japaneseName": "\u30c9\u30e9\u30b4\u30f3\u30ed\u30fc\u30eb",
+            "tier": "high",
+            "portionOz": 6,
+            "portionGrams": 170,
+            "pricing": {
+              "marketPerServing": 4.0,
+              "wholesalePerServing": 1.2,
+              "alaCartePerServing": 16.0
+            },
+            "nutrition": {
+              "calories": 290,
+              "proteinG": 12,
+              "fatG": 10
+            },
+            "notes": "Shrimp tempura inside, avocado on top. 8 pieces per roll.",
+            "image": "sushi,roll,dragon,avocado"
+          },
+          {
+            "id": "rainbow-roll",
+            "name": "Rainbow Roll",
+            "japaneseName": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30ed\u30fc\u30eb",
+            "tier": "high",
+            "portionOz": 6,
+            "portionGrams": 170,
+            "pricing": {
+              "marketPerServing": 4.5,
+              "wholesalePerServing": 1.35,
+              "alaCartePerServing": 17.0
+            },
+            "nutrition": {
+              "calories": 310,
+              "proteinG": 15,
+              "fatG": 11
+            },
+            "notes": "California base topped with assorted sashimi. Labor-intensive.",
+            "image": "sushi,roll,rainbow,colorful"
+          },
+          {
+            "id": "spicy-tuna-roll",
+            "name": "Spicy Tuna Roll",
+            "japaneseName": "\u30b9\u30d1\u30a4\u30b7\u30fc\u30c4\u30ca\u30ed\u30fc\u30eb",
+            "tier": "mid",
+            "portionOz": 5,
+            "portionGrams": 142,
+            "pricing": {
+              "marketPerServing": 2.5,
+              "wholesalePerServing": 0.75,
+              "alaCartePerServing": 10.0
+            },
+            "nutrition": {
+              "calories": 220,
+              "proteinG": 12,
+              "fatG": 7
+            },
+            "notes": "Tuna with sriracha mayo. Popular AYCE staple.",
+            "image": "sushi,roll,tuna,spicy"
+          },
+          {
+            "id": "california-roll",
+            "name": "California Roll",
+            "japaneseName": "\u30ab\u30ea\u30d5\u30a9\u30eb\u30cb\u30a2\u30ed\u30fc\u30eb",
+            "tier": "mid",
+            "portionOz": 5,
+            "portionGrams": 142,
+            "pricing": {
+              "marketPerServing": 1.5,
+              "wholesalePerServing": 0.45,
+              "alaCartePerServing": 7.0
+            },
+            "nutrition": {
+              "calories": 200,
+              "proteinG": 6,
+              "fatG": 6
+            },
+            "notes": "Imitation crab, avocado, cucumber. Entry-level AYCE roll.",
+            "image": "sushi,roll,california,maki"
+          },
+          {
+            "id": "spider-roll",
+            "name": "Spider Roll",
+            "japaneseName": "\u30b9\u30d1\u30a4\u30c0\u30fc\u30ed\u30fc\u30eb",
+            "tier": "high",
+            "portionOz": 5,
+            "portionGrams": 142,
+            "pricing": {
+              "marketPerServing": 3.5,
+              "wholesalePerServing": 1.05,
+              "alaCartePerServing": 14.0
+            },
+            "nutrition": {
+              "calories": 310,
+              "proteinG": 10,
+              "fatG": 14
+            },
+            "notes": "Soft shell crab tempura. Labor-intensive and cost-heavy.",
+            "image": "sushi,roll,crab,tempura"
+          }
+        ]
+      },
+      {
+        "id": "appetizers-sushi",
+        "name": "Appetizers",
+        "emoji": "\ud83e\udd57",
+        "items": [
+          {
+            "id": "edamame",
+            "name": "Edamame",
+            "japaneseName": "\u679d\u8c46",
+            "tier": "mid",
+            "portionOz": 4,
+            "portionGrams": 113,
+            "pricing": {
+              "marketPerServing": 0.8,
+              "wholesalePerServing": 0.24,
+              "alaCartePerServing": 4.0
+            },
+            "nutrition": {
+              "calories": 120,
+              "proteinG": 11,
+              "fatG": 5
+            },
+            "notes": "Frozen edamame $2-3/lb. High protein appetizer.",
+            "image": "edamame,soybean,raw,green"
+          },
+          {
+            "id": "miso-soup",
+            "name": "Miso Soup",
+            "japaneseName": "\u5473\u564c\u6c41",
+            "tier": "mid",
+            "portionOz": 8,
+            "portionGrams": 227,
+            "pricing": {
+              "marketPerServing": 0.4,
+              "wholesalePerServing": 0.12,
+              "alaCartePerServing": 3.0
+            },
+            "nutrition": {
+              "calories": 35,
+              "proteinG": 2,
+              "fatG": 1
+            },
+            "notes": "Miso paste, tofu, wakame. Inexpensive but universal.",
+            "image": "miso,soup,tofu,bowl"
+          },
+          {
+            "id": "agedashi-tofu",
+            "name": "Agedashi Tofu",
+            "japaneseName": "\u63da\u3052\u51fa\u3057\u8c46\u8150",
+            "tier": "mid",
+            "portionOz": 5,
+            "portionGrams": 142,
+            "pricing": {
+              "marketPerServing": 1.5,
+              "wholesalePerServing": 0.45,
+              "alaCartePerServing": 7.0
+            },
+            "nutrition": {
+              "calories": 145,
+              "proteinG": 7,
+              "fatG": 7
+            },
+            "notes": "Fried silken tofu in dashi broth. Labor and ingredient cost moderate.",
+            "image": "tofu,soft,silken,fresh"
+          }
+        ]
+      },
+      {
+        "id": "dessert",
+        "name": "Dessert",
+        "emoji": "\ud83c\udf61",
+        "items": [
+          {
+            "id": "mochi-ice-cream",
+            "name": "Mochi Ice Cream",
+            "japaneseName": "\u3082\u3061\u30a2\u30a4\u30b9",
+            "tier": "mid",
+            "portionOz": 2,
+            "portionGrams": 57,
+            "pricing": {
+              "marketPerServing": 1.2,
+              "wholesalePerServing": 0.36,
+              "alaCartePerServing": 4.0
+            },
+            "nutrition": {
+              "calories": 110,
+              "proteinG": 1,
+              "fatG": 3
+            },
+            "notes": "Mochi ice cream ~$1.50-2 each retail. 1 piece per serving.",
+            "image": "mochi,ice,cream,ball"
+          },
+          {
+            "id": "green-tea-ice-cream",
+            "name": "Green Tea Ice Cream",
+            "japaneseName": "\u62b9\u8336\u30a2\u30a4\u30b9",
+            "tier": "mid",
+            "portionOz": 3,
+            "portionGrams": 85,
+            "pricing": {
+              "marketPerServing": 0.8,
+              "wholesalePerServing": 0.24,
+              "alaCartePerServing": 4.0
+            },
+            "nutrition": {
+              "calories": 130,
+              "proteinG": 2,
+              "fatG": 6
+            },
+            "notes": "Matcha ice cream. Standard AYCE dessert offering.",
+            "image": "matcha,green,tea,powder"
+          }
+        ]
+      }
+    ]
+  }
+}
