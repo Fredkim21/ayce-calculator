@@ -24,8 +24,9 @@ export default function ItemCard({ item }: { item: AYCEItem }) {
   const price = getItemPrice(item, pricingMode);
   const tier = tierStyles[item.tier];
   const subtitle = item.koreanName ?? (item as any).japaneseName;
-  const seed = item.id.split("").reduce((h, c, i) => h + c.charCodeAt(0) * (i + 7), 0);
-  const imageUrl = `https://loremflickr.com/400/300/${encodeURIComponent(item.image)}?lock=${seed}`;
+  const photoUrl = (item as any).photoUrl;
+  const lock = (item as any).photoLock ?? 1;
+  const imageUrl = photoUrl || `https://loremflickr.com/400/300/${encodeURIComponent(item.image)}/all?lock=${lock}`;
 
   return (
     <div
