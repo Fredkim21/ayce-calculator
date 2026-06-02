@@ -38,7 +38,7 @@ function flickrUrl(image: string, lock: number) {
   return `https://loremflickr.com/400/300/${encodeURIComponent(image)}/all?lock=${lock}`;
 }
 
-async function savePhoto(itemId: string, payload: { photoLock?: number; photoUrl?: string | null }) {
+async function savePhoto(itemId: string, payload: { photoLock?: number; photoUrl?: string | null; keywords?: string }) {
   await fetch("/api/save-photo-lock", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
